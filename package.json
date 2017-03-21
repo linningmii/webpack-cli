@@ -1,0 +1,24 @@
+{
+  "name": "webpack-cli",
+  "version": "0.0.1",
+  "description": "Webpack front-end cli, build webpack project quickly",
+  "main": "./src/index.js",
+  "repository": "git@github.com:linningmii/webpack-cli.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run build && npm run open-dev-server",
+    "build": "node_modules/.bin/webpack",
+    "open-dev-server": "node_modules/.bin/webpack-dev-server"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.0",
+    "pug": "^2.0.0-beta11",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.3",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
