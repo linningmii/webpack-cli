@@ -6,9 +6,8 @@
   "repository": "git@github.com:linningmii/webpack-cli.git",
   "license": "MIT",
   "scripts": {
-    "dev": "npm run build && npm run open-dev-server",
-    "build": "node_modules/.bin/webpack",
-    "open-dev-server": "node_modules/.bin/webpack-dev-server"
+    "dev": "node_modules/.bin/webpack-dev-server --open",
+    "build": "node_modules/.bin/webpack"
   },
   "devDependencies": {
     "css-loader": "^0.27.3",
